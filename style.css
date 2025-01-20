@@ -1,0 +1,376 @@
+main {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  margin: auto;
+}
+
+header {
+  background-image: url(https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2025/01/pace-performace-Background-Photo-mobile.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #148bc3;
+  padding: 80px 0;
+}
+
+header div {
+  width: 290px;
+  display: block;
+  margin: auto;
+}
+
+header img {
+  margin: auto;
+  display: block;
+  width: 75%;
+}
+
+header p,
+header h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.grey-wrapper {
+  background-color: #e6e6e6;
+  padding: 60px 0 0;
+}
+
+.body-wrapper {
+  display: block;
+  margin: auto;
+  width: 290px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contact-container p {
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.row1 p {
+  text-align: center;
+}
+
+.row1 {
+  padding: 20px 0;
+}
+
+.row1 img {
+  margin: 40px auto;
+  display: block;
+  width: 100%;
+}
+
+.row2 p {
+  margin: 0;
+}
+
+.iframe-style {
+  height: 750px !important;
+}
+
+.contact-box-flex i {
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 0 0 12px;
+  font-size: 24px;
+}
+
+i.circle1 {
+  padding: 10px;
+  background-color: #1789c4;
+}
+
+i.circle2 {
+  padding: 10px 13px;
+  background-color: #e82430;
+}
+
+i.circle3 {
+  padding: 10px;
+
+  background-color: #1e3a48;
+}
+
+i.circle4 {
+  padding: 10px 12px;
+  background-color: #fd850e;
+}
+
+.contact-container {
+  padding: 0px 8px 20px;
+  position: relative;
+  bottom: 60px;
+}
+
+.contact-box {
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  margin: 10px 0;
+}
+
+.contact-box-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding: 10px 0;
+  background-color: #fff;
+  height: 60px;
+}
+
+.contact-box-flex div:last-child {
+  margin: 0 0 0 12px;
+}
+
+.row1 a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 20px auto 0;
+  background-color: #148bc3;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  width: 170px;
+  padding: 10px 0;
+  transition-duration: 0.3s;
+}
+
+.row1 a:hover {
+  text-decoration: none;
+  background-color: #0e6289;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row1 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+  .body-wrapper {
+    width: 400px;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  header div {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .body-wrapper {
+    width: 100%;
+  }
+
+  header div {
+    width: 700px;
+  }
+
+  header img {
+    width: 60%;
+  }
+
+  .item-order {
+    order: 2;
+  }
+
+  h3 {
+    padding-bottom: 10px;
+  }
+
+  .row1 {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .row1 div {
+    flex-basis: 50%;
+  }
+
+  .row1 div:first-child {
+    padding: 0 20px;
+  }
+
+  .row1 img {
+    margin: 0;
+    position: relative;
+    right: 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .row2 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .row2 ul {
+    flex-basis: 50%;
+  }
+
+  .iframe-style {
+    height: 650px !important;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-flex-wrapper {
+    display: block;
+    margin: auto;
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  header div {
+    width: 730px;
+  }
+
+  header {
+    background-image: url(https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2025/01/pace-performace-Background-Photo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+  }
+
+  .contact-container {
+    padding: 0px 8px 0px;
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+
+  .contact-flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 900px;
+  }
+
+  .contact-flex-info:first-child {
+    flex-basis: 65%;
+    order: 2;
+  }
+
+  .contact-flex-info:last-child {
+    flex-basis: 35%;
+  }
+
+  .row1 p {
+    padding: 0 30px;
+  }
+
+  .row1 h3 {
+    padding: 0 80px 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-container {
+    bottom: 78px;
+    gap: 20px;
+  }
+
+  .grey-wrapper {
+    padding: 120px 0 0;
+  }
+
+  .row1 div:first-child {
+    padding: 0;
+  }
+
+  .row1 p {
+    padding: 0 83px;
+  }
+
+  .row1 h3 {
+    padding: 0 130px 10px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  header {
+    padding: 70px 0;
+  }
+
+  .body-wrapper {
+    width: 1920px;
+  }
+
+  .row1 p {
+    padding: 0px 263px;
+  }
+
+  .row1 h3 {
+    padding: 0 310px 20px;
+  }
+}
