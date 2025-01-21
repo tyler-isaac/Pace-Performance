@@ -195,14 +195,30 @@ i.circle4 {
 
 .logo-container {
   display: flex;
-  justify-content: center;
+  gap: 10px; /* Space between images */
+  justify-content: center; /* Center the logos horizontally */
+  align-items: center; /* Align logos vertically */
   flex-wrap: wrap;
 }
 
 .logo-container img {
-  width: 45%;
-  display: block;
-  margin: 0 auto;
+  width: 100px; /* Set uniform width */
+  height: 100px; /* Set uniform height */
+  object-fit: contain; /* Maintain aspect ratio and fit within the box */
+  border: 1px solid #ffffff; /* Optional: Add a border for clarity */
+  background-color: #ffffff; /* Optional: Add a background color for contrast */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.row3 h3 {
+  padding-bottom: 60px;
+}
+
+hr {
+  border: 2px solid #e6e6e6;
+  background-color: #e6e6e6;
+  width: 90%;
+  margin: 20px auto 50px;
 }
 
 @media only screen and (min-width: 480px) {
@@ -298,7 +314,8 @@ i.circle4 {
   }
 
   .logo-container img {
-    width: 21%;
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -377,8 +394,8 @@ i.circle4 {
   }
 
   .logo-container img {
-    width: 8%;
-    margin: 0 10px;
+    width: 150px;
+    height: 150px;
   }
 }
 
