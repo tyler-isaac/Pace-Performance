@@ -189,6 +189,22 @@ i.circle4 {
   text-align: center;
 }
 
+.row3 {
+  padding: 50px 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo-container img {
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 480px) {
   .body-wrapper {
     width: 400px;
@@ -280,6 +296,10 @@ i.circle4 {
     margin: auto;
     width: 700px;
   }
+
+  .logo-container img {
+    width: 21%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -354,6 +374,11 @@ i.circle4 {
 
   .row1 h3 {
     padding: 0 130px 10px;
+  }
+
+  .logo-container img {
+    width: 8%;
+    margin: 0 10px;
   }
 }
 
