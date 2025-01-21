@@ -190,7 +190,7 @@ i.circle4 {
 }
 
 .row3 {
-  padding: 50px 0;
+  padding: 0px 0 50px;
 }
 
 .logo-container {
@@ -205,9 +205,6 @@ i.circle4 {
   width: 100px; /* Set uniform width */
   height: 100px; /* Set uniform height */
   object-fit: contain; /* Maintain aspect ratio and fit within the box */
-  border: 1px solid #ffffff; /* Optional: Add a border for clarity */
-  background-color: #ffffff; /* Optional: Add a background color for contrast */
-  border-radius: 10px; /* Optional: Rounded corners */
 }
 
 .row3 h3 {
