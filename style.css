@@ -318,7 +318,7 @@ hr {
 
 @media only screen and (min-width: 992px) {
   header div {
-    width: 730px;
+    width: 814px;
   }
 
   header {
@@ -332,7 +332,7 @@ hr {
   .contact-container {
     padding: 0px 8px 0px;
     position: relative;
-    bottom: 60px;
+    bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -370,7 +370,7 @@ hr {
 
 @media only screen and (min-width: 1200px) {
   .contact-container {
-    bottom: 78px;
+    bottom: 25px;
     gap: 20px;
   }
 
